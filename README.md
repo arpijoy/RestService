@@ -21,10 +21,6 @@ OR ftp
 ```
 $ curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/ping
 ```
-### Call the API
-```
-$ curl  https://sjuvck8q9d.execute-api.us-west-2.amazonaws.com/test/hello
-```
 
 ###Create an HTTP API
 Reference: https://www.serverless.com/examples/aws-java-simple-http-endpoint/
