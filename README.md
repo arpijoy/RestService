@@ -1,6 +1,7 @@
 ###Create a new service
-###Ref: https://www.serverless.com/framework/docs/providers/aws/cli-reference/create/
-1. Use serverless create --template aws-java-gradle --path <name-of-service>
+###Ref: https://www.serverless.com/framework/docs/providers/aws/cli-reference/create/ ( Use serverless create --template aws-java-gradle --path <name-of-service>)
+### HOW-TO USE 
+1. git clone <URL>, cd RestService
 2. Build 
    ```
    $ gradle wrapper # to build the gradle wrapper jar
