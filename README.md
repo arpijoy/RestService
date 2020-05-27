@@ -1,27 +1,25 @@
 ###Create a new service
-###Ref: https://www.serverless.com/framework/docs/providers/aws/cli-reference/create/
-1. Use serverless create --template aws-java-gradle --path <name-of-service>
-2. Build 
+###Ref: https://www.serverless.com/framework/docs/providers/aws/cli-reference/create/ ( Use serverless create --template aws-java-gradle --path <name-of-service>)
+### HOW-TO USE 
+1. git clone https://github.com/arpijoy/RestService.git 
+2. $ cd RestService
+3. Build 
    ```
    $ gradle wrapper # to build the gradle wrapper jar
    $ ./gradlew build # to build the application jar
    ```
-3. Deploy
+4. Deploy
    ```
    $ sls deploy
    ```
    
-4. Usage 
+5. Usage 
 ```
 $ serverless invoke --function currentTime --log
 ```
 OR ftp
 ```
 $ curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/ping
-```
-### Call the API
-```
-$ curl  https://sjuvck8q9d.execute-api.us-west-2.amazonaws.com/test/hello
 ```
 
 ###Create an HTTP API
